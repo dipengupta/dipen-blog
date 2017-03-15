@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guitar</title>
+	<link rel="stylesheet" type="text/css" href="../CSS/Guitar.css">
+</head>
+<body>
+	<h1>Guitar : </h1>
+
+	<div class="dropdown" id="pos">
+    	<button class="dropbtn">About</button>
+	  	<div class="dropdown-content">
+	  		<button class="dropped" onclick="about_history()">History</button>
+	  		<button class="dropped" onclick="about_players()">Types of Guitars</button>
+	  		<button class="dropped" onclick="about_video()">My Video!</button>
+	  	</div>
+	</div>
+
+	<div class="dropdown" id="pos2">
+		<button class="dropbtn">Scales</button>
+		<div class="dropdown-content">
+			<button class="dropped" onclick="scales_major()">Major</button>
+	  		<button class="dropped" onclick="scales_blues()">Blues</button>
+	  </div>
+	</div>
+
+	<div class="dropdown" id="pos3">
+		<button class="dropbtn">Chords</button>
+		<div class="dropdown-content">
+			<button class="dropped" onclick="chords_major()">Major</button>
+	  </div>
+	</div>
+
+
+	<br><br><br>
+
+	<div id="data"></div>
+	
+
+</body>
+
+<script src="../JS/Guitar.js"></script>
+
+</html>
